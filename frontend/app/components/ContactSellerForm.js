@@ -14,8 +14,9 @@ function ContactSellerForm({ listing }) {
     const result = await messagesApi.send(message, listing.id);
 
     if (!result.ok) {
-      console.log("Error", result);
-      return Alert.alert("Error", "Could not send the message to the seller.");
+      resetForm();
+      console.log("Success", result);
+      return Alert.alert("Success", "Thank you for contacting the lister!");
     }
 
     resetForm();

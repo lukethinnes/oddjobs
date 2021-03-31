@@ -50,7 +50,7 @@ const listings = [
   },
   {
     id: 3,
-    title: "Free mattress I suppose...",
+    title: "ISO free mattress...",
     images: [{ fileName: "freemattress" }],
     categoryId: 1,
     zip: 80202,

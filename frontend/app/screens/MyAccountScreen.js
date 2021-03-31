@@ -15,7 +15,7 @@ const menuItems = [
     name: 'format-list-bulleted',
     backgroundColor: colors.primary,
   }},
-  { title: 'Messages',
+  { title: 'Messages (4)',
   icon: {
     name: 'email',
     backgroundColor: colors.secondary,

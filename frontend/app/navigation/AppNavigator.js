@@ -5,7 +5,6 @@ import ListingEditScreen from '../screens/ListingEditScreen';
 import FeedNavigator from './FeedNavigator';
 import AccountNavigator from './AccountNavigator';
 import NewListingButton from './NewListingButton';
-import navigationTheme from './navigationTheme';
 import routes from './routes';
 
 const Tab = createBottomTabNavigator()

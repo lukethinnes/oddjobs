@@ -11,25 +11,25 @@ import ListItemDeleteAction from '../components/lists/ListItemDeleteAction';
         {
             id: 1,
             title: 'Boxspring Chicken',
-            description: 'I used your IP address to find out where you live. Do not push me any further.',
+            description: 'Do you still have free mattress?',
             image: require('../assets/boxspringchicken.jpeg')
         },
         {
             id: 2,
             title: 'Boxspring Chicken',
-            description: 'You cannot hide from me. You will not hide from me. Give me free mattress.',
+            description: 'Hello I am craving free mattress when can I pick up?',
             image: require('../assets/boxspringchicken.jpeg')
         },
         {
             id: 3,
             title: 'Boxspring Chicken',
-            description: 'Do you still have free mattress?',
+            description: 'You cannot hide from me. You will not hide from me. Give me free mattress.',
             image: require('../assets/boxspringchicken.jpeg')
         },
         {
             id: 4,
             title: 'Boxspring Chicken',
-            description: 'Hello I am craving free mattress when can I pick up?',
+            description: 'I used your IP address to find out where you live. Do not push me any further.',
             image: require('../assets/boxspringchicken.jpeg')
         },
     ]
@@ -53,6 +53,7 @@ function MessagesScreen(props) {
             <ListItem 
             title={item.title}
             subTitle={item.description}
+            style={styles.description}
             image={item.image} 
             onPress={() => console.log('Pressed', item)} 
             renderRightActions={() =>
@@ -76,7 +77,9 @@ function MessagesScreen(props) {
 }
 
 const styles = StyleSheet.create({
-
+    description: {
+        color: 'black'
+    }
 });
 
 export default MessagesScreen;
